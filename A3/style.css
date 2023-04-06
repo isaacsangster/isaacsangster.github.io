@@ -1,0 +1,215 @@
+h1{
+    text-align: center;
+    color:blueviolet
+}
+
+h2{
+    color:rgb(183, 116, 246)
+}
+
+th{
+   padding: 5px; 
+   background-color: rgb(234, 178, 246);
+}
+
+td{
+    padding: 5px;
+    background-color: rgb(241, 196, 250);
+}
+
+table, th, td{
+    width: 75%;
+    margin: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+nav{
+    background-color: #a8e4ed;
+    font-size: 15px;
+    padding: 18px;
+}
+
+nav h2{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.navigation{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    
+}
+
+.navigation li{
+    float: center;
+}
+
+.navigation li a{
+    display: block;
+    color: purple;
+    padding: 10px 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navigation li a:hover{
+    background-color: #85adc0;
+}
+
+.image{
+    border: 3px solid rgb(134, 115, 246);
+    border-radius: 45%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.example{
+    display: block;
+    padding: 2px;
+    margin: auto;
+    width: 60%;
+}
+
+.examplepic{
+    border: 3px solid rgb(134, 115, 246);
+    display: block;
+    padding: 2px;
+    margin: auto;
+    width: 60%;
+}
+
+.video{
+    display:block;
+    margin: auto;
+    width: 30%;
+}
+
+.links{
+    text-align: center;
+}
+
+body{
+    background-color: rgb(182, 249, 249);
+}
+
+.liststyle{
+    background: rgb(234, 178, 246);
+    padding: 14px;
+}
+
+.liststyle ul{
+    background: rgb(240, 188, 251);
+}
+
+*{
+    padding: 3px;
+}
+
+nav > ul{
+    font-weight: bold;
+    font-size: large;
+}
+
+li ~ ul{
+    font-style: italic;
+}
+
+h2 + p{
+    font-size: large;
+}
+
+img[alt = "Love to Learn"]{
+    width: 20%;
+}
+
+p::first-letter{
+    font-size: larger;
+    font-style: oblique;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.grid{
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+/*Mobile*/
+
+@media screen and (min-width: 400) {
+    h1 {
+        font-size: 22px;
+    }
+
+    .image{
+        width: 50%;
+    }
+
+    .video{
+        width: 50%;
+    }
+
+    .example{
+        width: 100%;
+    }
+}
+
+/*Tablet*/
+
+@media screen and (min-width: 800) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .image {
+        width: 45%;
+    }
+
+    .video {
+        width: 45%;
+    }
+
+    .example {
+        width: 85%;
+    }
+}
+
+/*Desktop*/
+
+@media screen and (max-width: 1200) {
+    h1 {
+        font-size: 45px;
+    }
+
+    .image {
+        width: 35%;
+    }
+
+    .video {
+        width: 35%;
+    }
+
+    .example {
+        width: 60%;
+    }
+}
+
+button{
+    display: flex; 
+    justify-items: center;
+}

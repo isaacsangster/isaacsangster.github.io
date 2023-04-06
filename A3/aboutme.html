@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Portfolio</title>
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+  </head>
+  <body>
+      <button id="color1">Lighter Color</button>
+      <button id="color2">Darker Color</button>
+      <button id="normal">Regular Color</button>
+      <header>
+          <h1> About Me</h1>
+      </header>
+      <nav>
+          <h2>Find more about me below!</h2>
+          <ul class="navigation">
+              <li><a href="index.html"> Homepage </a></li>
+              <li><a href="experience.html"> Past Experience </a></li>
+
+          </ul>
+      </nav>
+      <div class="flex">
+          <p>
+              I have lived in Nova Scotia for most of my life, but when I first started my University
+              adventure, I was at Memorial University of Newfoundland in St. John's. There I was studying chemistry
+              when I realized after almost two years that it wasn't enjoyable to me. I made the happy switch over to
+              computer science and decided to stay local to my hometown and study in Halifax! I've always been an outgoing
+              person in and out of the workplace and I am capable of adapting to almost any work environment. I would never turn down
+              a challenge, especially if learning is involved. All my life I loved to learn deeper about topics which interest me, and
+              being in computer science really showed me that there is <i>a lot</i> more to appreciate and learn about than I previously
+              imagined being a chemistry student. With more than 6 years of customer service, combined with my love for this field, I would make
+              a great addition to your team.
+          </p>
+
+          <img src="assets/img2.png" width="320" height="200" alt="Love to Learn" class="image">
+          <br>
+      </div>
+      <p> One of the first videos that made me reconsider my career path was the CS50 lectures uploaded for free by Harvard. I put one of the lectures related to C below. </p>
+      <iframe width="460" height="250" src="https://www.youtube.com/embed/URrzmoIyqLw" class="video"></iframe>
+      <br>
+      <h2>Fill in the boxes below so I can reach out!</h2>
+      <form id="form" action="mailto:isaacsangster8@gmail.com" method="POST">
+          <label for="subject">Reason for contacting:</label>
+          <input type="text" id="reason" name="reason"><br><br>
+
+          <label for="contact">Email/Phone number to contact you: </label>
+          <input type="text" id="contact" name="contact"><br><br>
+
+          <input type="submit" value="Send" id="submit">
+      </form>
+  </body>
+</html>

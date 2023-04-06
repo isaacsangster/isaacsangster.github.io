@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Portfolio</title>
+    <link rel="icon" href="assets/favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <button id="color1">Lighter Color</button>
+    <button id="color2">Darker Color</button>
+    <button id="normal">Regular Color</button>
+    <header>
+        <h1 id="top">My Name is Isaac Sangster</h1>
+    </header>
+    <nav>
+        <h2>Find more about me below!</h2>
+        <ul class="navigation">
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="experience.html">Past Experience</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2 id="page1">Project examples</h2>
+        <p>During my time at Dalhousie, I've had the opportunity to work on many different coding assignments.</p>
+        <p>
+            In the video below is a program that I created to find what number has the largest Collatz Sequence between 1 and the number inputted.
+            This outputs the number entered, the number with the highest collatz sequence, and how many steps are in that sequence, as well as the time elapsed.
+        </p>
+        <div class="grid">
+            <p>For context, a collatz sequence is the steps the algorithm takes until it reaches 1 from an inputted integer. If input is even, it divides by 2. If it is odd, it multiplies by 3 and adds 1. Every finite number has a collatz sequence. </p>
+            <video width="560" height="380" controls class="example">
+                <source src="assets/code.mp4" type="video/mp4">
+            </video>
+            <p> Another project I completed was a basic password system, which detects whether you inputted the password incorrectly for the corresponding username. Upon successful entry, it greets the user.</p>
+            <a href="experience.html"><img src="assets/code2.png" width="680" height="360" alt="Link to more past experience" class="examplepic"></a>
+        </div>
+        <p> Click the link below to go back to the top and learn more about me! Click the image above to learn about my past work experience! </p>
+        <p style="text-align: center;">
+            <a href="#top" style="color: blue"> Go To Top</a>
+            <br>
+            <audio controls autoplay class="example">
+                <source src="assets/audio.mp3">
+                Your browser does not support the audio element.
+            </audio>
+            <br>
+            <a href=" https://www.youtube.com/watch?v=1f-NQAgm-YM" id="outlink" style="color: blue">Link to the lovely tune</a>
+        </p>
+    </main>
+</body>
+</html>
